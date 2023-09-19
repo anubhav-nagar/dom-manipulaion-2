@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url("images/samantha-gades-BlIhVfXbi9s-unsplash.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#btn-container{
+    position: absolute;
+    top: 80%;
+    left: 7%;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 20px 40px;
+}
+.window{
+    position: relative;
+    top: 30%;
+    left: 40%;
+    border: 1px solid grey;
+    width: 260px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+    border: 1px solid rebeccapurple;
+    border-radius: 14px;
+    display: none;
+}
+#close-btn{
+    color: red;
+    position: relative;
+    top: -70px;
+    right: -40px;
+    font-size: 45px;
+    cursor: pointer;
+}
+.show-window{
+    display: flex;
+}
